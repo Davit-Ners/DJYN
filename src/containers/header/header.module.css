@@ -3,14 +3,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: radial-gradient(circle at center, #111 0%, #000 100%);
+    background: radial-gradient(circle at center, #111 0%, #181818 100%);
     padding: 4rem 1rem;
     text-align: center;
     color: #f2f2f2;
     gap: 1rem;
   }
   
-  .header img {
+  .logo {
     filter: drop-shadow(0 0 15px #aaa);
     max-width: 400px;
     height: auto;

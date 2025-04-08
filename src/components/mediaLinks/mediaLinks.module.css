@@ -1,0 +1,8 @@
+.test {
+    filter: invert(77%) sepia(8%) saturate(83%) hue-rotate(325deg) brightness(109%) contrast(87%);
+}
+
+.linkContainer {
+    display: flex;
+    justify-content: space-between;
+}
