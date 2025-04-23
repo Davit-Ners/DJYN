@@ -3,5 +3,24 @@
 }
 
 .spotify {
-    width: 30%;
+    width: 80%;
+}
+
+.leftPage {
+    width: 40%;
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.aboutContainer {
+    color: var(--primary-txt);
+    font-family: var(--font);
+    width: 80%;
+}
+
+.aboutContainer h2 {
+    text-align: center;
 }

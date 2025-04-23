@@ -5,6 +5,8 @@
   --foreground: #171717;
 
   --page-background: radial-gradient(circle at center, #111 0%, #181818 100%);
+  --primary-txt: #ccc;
+  --font: 'Orbitron', sans-serif;
 }
 
 @theme inline {
