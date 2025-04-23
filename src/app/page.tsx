@@ -42,6 +42,11 @@ export default function Home() {
                 <div className={style.merch}>
                     <p>🔥 Official DJYN merch is coming soon. Stay tuned!</p>
                 </div>
+
+                <h2 className={style.sectionTitle}>📩 Contact</h2>
+                <p className={style.contactLine}>
+                    For booking & inquiries, email us at <a href="mailto:djynband@gmail.com">djynband@gmail.com</a>
+                </p>
             </div>
         </div>
     );
