@@ -1,9 +1,9 @@
 import SpotifyIntegrator from '@/components/spotifyIntegrator/spotifyIntegrator';
 import style from './homePage.module.css';
-import Image from "next/image";
 import AboutSection from '@/components/aboutSection/aboutSection';
 import YoutubeIntegrator from '@/components/youtubeIntegrator/youtubeIntegrator';
 import StatsSection from '@/components/statsSection/statsSection';
+import GallerySection from '@/components/gallerySection/gallerySection';
 
 export default function Home() {
     return (
@@ -52,6 +52,8 @@ export default function Home() {
                         For booking & inquiries, email us at <a href="mailto:djynband@gmail.com">djynband@gmail.com</a>
                     </p>
                 </div>
+
+                <GallerySection />
             </div>
         </div>
     );
