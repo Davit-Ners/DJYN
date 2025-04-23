@@ -47,9 +47,11 @@ export default function Home() {
                 </div>
 
                 <h2 className={style.sectionTitle}>📩 Contact</h2>
-                <p className={style.contactLine}>
-                    For booking & inquiries, email us at <a href="mailto:djynband@gmail.com">djynband@gmail.com</a>
-                </p>
+                <div className={style.merch}>
+                    <p className={style.contactLine}>
+                        For booking & inquiries, email us at <a href="mailto:djynband@gmail.com">djynband@gmail.com</a>
+                    </p>
+                </div>
             </div>
         </div>
     );
