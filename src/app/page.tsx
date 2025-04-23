@@ -3,6 +3,7 @@ import style from './homePage.module.css';
 import Image from "next/image";
 import AboutSection from '@/components/aboutSection/aboutSection';
 import YoutubeIntegrator from '@/components/youtubeIntegrator/youtubeIntegrator';
+import StatsSection from '@/components/statsSection/statsSection';
 
 export default function Home() {
     return (
@@ -17,6 +18,8 @@ export default function Home() {
                 <div className={style.aboutContainer}>
                     <AboutSection />
                 </div>
+
+                <StatsSection />
 
                 <h2 className={style.sectionTitle}>📅 Upcoming Shows</h2>
                 <div className={style.concerts}>

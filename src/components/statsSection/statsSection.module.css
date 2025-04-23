@@ -1,0 +1,36 @@
+.sectionTitle {
+    color: #f1f1f1;
+    text-align: center;
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+    font-family: 'Orbitron', sans-serif;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #444;
+    padding-bottom: 0.5rem;
+}
+  
+.statsBlock {
+    width: 100%;
+    max-width: 450px;
+    background: #121212;
+    border-radius: 16px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+    padding: 1rem;
+    font-family: 'Orbitron', sans-serif;
+    color: var(--primary-txt);
+}
+  
+.statsBlock ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 2;
+    font-size: 0.95rem;
+}
+  
+.statsBlock span {
+    font-weight: bold;
+    color: #f542b3;
+    display: inline-block;
+    min-width: 80px;
+}
