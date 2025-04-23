@@ -1,0 +1,9 @@
+.footer {
+    text-align: center;
+    color: #666;
+    font-size: 0.85rem;
+    padding: 2rem 0;
+    font-family: 'Orbitron', sans-serif;
+    border-top: 1px solid #333;
+    background: var(--page-background);
+}
