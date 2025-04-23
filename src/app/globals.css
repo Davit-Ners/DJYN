@@ -3,6 +3,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  --page-background: radial-gradient(circle at center, #111 0%, #181818 100%);
 }
 
 @theme inline {

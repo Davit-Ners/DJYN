@@ -1,0 +1,7 @@
+.pageContainer {
+    background: var(--page-background);
+}
+
+.spotify {
+    width: 30%;
+}
