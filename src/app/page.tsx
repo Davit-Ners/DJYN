@@ -4,6 +4,7 @@ import AboutSection from '@/components/aboutSection/aboutSection';
 import YoutubeIntegrator from '@/components/youtubeIntegrator/youtubeIntegrator';
 import StatsSection from '@/components/statsSection/statsSection';
 import GallerySection from '@/components/gallerySection/gallerySection';
+import ConcertsSection from '@/components/concertsSection/concertsSection';
 
 export default function Home() {
     return (
@@ -23,11 +24,7 @@ export default function Home() {
 
                 <h2 className={style.sectionTitle}>📅 Upcoming Shows</h2>
                 <div className={style.concerts}>
-                    <ul>
-                        <li><span>03 May 2025</span> — Botanique, Brussels</li>
-                        <li><span>18 May 2025</span> — Le Ferrailleur, Nantes</li>
-                        <li><span>31 May 2025</span> — L’Usine, Genève</li>
-                    </ul>
+                    <ConcertsSection />
                 </div>
             </div>
 
